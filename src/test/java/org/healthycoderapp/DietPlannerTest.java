@@ -20,6 +20,7 @@ public class DietPlannerTest {
         System.out.println("A unit test was finished");
     }
 
+    // @RepeatedTest(10) -> test will be executed 10x, only in specific cases
     @Test
     void should_ReturnCorrectDietPlan_When_CorrectCoder() {
         // given
