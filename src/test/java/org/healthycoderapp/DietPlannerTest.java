@@ -1,14 +1,11 @@
 package org.healthycoderapp;
 
 import healthycoderapp.*;
-import junit.framework.TestCase;
-import junit.framework.TestSuite;
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.function.Executable;
 
 public class DietPlannerTest {
     private DietPlanner dietPlanner;
